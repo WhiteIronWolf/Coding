@@ -31,13 +31,23 @@ Selects all elements
 ```
 ---
 ## Advanced selection
+
 #### **Select nested elements**
-Selects all `<p>` elements inside `<div>` elements
+Selects all `<p>` elements inside the `<div>` elements
 ```css
 div p {
     /* property : value */
 }
 ```
+
+#### **Select several elements**
+Selects all the `<div>`, `<h1>` and `<p>` elements
+```css
+div, h1, p {
+    /* property : value */
+}
+```
+
 #### **Select attribute**
 Selects all a elements with href="https://www.jacobkrag.dk/"
 ```css
